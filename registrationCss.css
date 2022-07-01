@@ -130,7 +130,7 @@ input,
 
 
    .info {
-    width: 450px;
+    width: 300px;
     align-items: center;
     color: white;
     text-align: center;
@@ -163,7 +163,7 @@ input,
           background-color: hsl(248, 32%, 49%);
           text-align: center;
           margin-bottom: 30px;
-          width: 350px;
+          width: 220px;
           box-shadow: 0px 10px rgba(0, 0, 0, 0.15);
         }
 
@@ -175,10 +175,11 @@ input,
         }
 .form {
   background-color: white;
-  padding: 40px 65px;
+  padding: 40px 85px ;
+  padding-left:35px ;
   border-radius: 15px;
   height: 500px;
-  width: 350px;
+  width: 200px;
   font-family: "Poppins", sans-serif;
   font-size: 16px;
   box-shadow: 0px 5px rgba(0, 0, 0, 0.15);
@@ -189,9 +190,9 @@ input,
   font-family: "Poppins", sans-serif;
   font-size: 16px;
   width: 100%;
-  margin: 10px 0;
+  margin: 5px 0;
   border: 1px solid hsl(246, 25%, 77%);
-  padding: 25px 10px;
+  padding: 25px ;
   border-radius: 10px;
   font-weight: 600;
 }
@@ -206,8 +207,8 @@ input,
   background-color: hsl(154, 59%, 51%);
   cursor: pointer;
   color: white;
-  padding-right: 30px;
   box-shadow: 0px 4px hsl(154, 57%, 47%);
+padding-right: 230px;
 }
 
 
