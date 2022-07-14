@@ -1,4 +1,4 @@
-@media screen and (max-width: 1440px){
+@media screen and (max-width: 1440px) and (min-width:800px){
 
 * {
   box-sizing: border-box;
@@ -50,6 +50,7 @@ main {
   font-size: 10px;
   text-align: center;
   margin-top: 20px;
+   
 }
 
 .p {
@@ -59,14 +60,14 @@ main {
 }
 
 .box-shadow {
-  padding: 20px 35px;
-  border-radius: 8px;
+  padding: 30px 45px;
+  border-radius: 15px;
   color: white;
   background-color: hsl(248, 32%, 49%);
   text-align: center;
-  margin-bottom: 15px;
-  width: 135%;
-  box-shadow: 0px 5px rgba(0, 0, 0, 0.15);
+  margin-bottom: 30px;
+  width: 500px;
+  box-shadow: 0px 10px rgba(0, 0, 0, 0.15);
 }
 a {
   font-size: 16px;
@@ -78,9 +79,9 @@ a {
 .form {
   background-color: white;
   padding: 40px 40px;
-  border-radius: 8px;
-  height: 100%;
-  width: 135%;
+  border-radius: 15px;
+  height: 450px;
+  width: 500px;
   font-family: "Poppins", sans-serif;
   font-size: 16px;
   box-shadow: 0px 5px rgba(0, 0, 0, 0.15);
@@ -136,18 +137,25 @@ input,.button {
   box-shadow: 0px 4px hsl(154, 57%, 47%);
 }
 
-
-  
 }
 
-@media screen and (max-width:375px) {
+
+
+
+@media screen and (max-width:801px) and (min-width:375px) {
    body, main{
     display: flex;
     flex-direction: column;
-   }
+   
+    background-image: url(bg-intro-mobile.png);
+    background-color: hsl(0, 100%, 74%);
+  justify-content: center;
+  margin: auto;
+  }
+
 
    .info {
-    width: 100%;
+    width: 300px;
     align-items: center;
     color: white;
     text-align: center;
@@ -162,8 +170,71 @@ input,.button {
 
     .paragraph {
         font-family: "Poppins", sans-serif;
-        font-size: 10px;
+        font-size: 16px;
         text-align: center;
         margin-top: 20px;}
+   .p {
+          font-family: "Poppins", sans-serif;
+          font-size: 16px;
+          margin-right: 50%;
+          font-weight: 500;
+        }
+        
+
+        .box-shadow {
+          padding: 30px 45px;
+          border-radius: 15px;
+          color: white;
+          background-color: hsl(248, 32%, 49%);
+          text-align: center;
+          margin-bottom: 30px;
+          width: 220px;
+          box-shadow: 0px 10px rgba(0, 0, 0, 0.15);
+        }
+
+        a {
+          font-size: 16px;
+          font-family: "Poppins", sans-serif;
+          text-decoration: none;
+          color: white;
+        }
+.form {
+  background-color: white;
+  padding: 40px 85px ;
+  padding-left:35px ;
+  border-radius: 15px;
+  height: 500px;
+  width: 200px;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  box-shadow: 0px 5px rgba(0, 0, 0, 0.15);
+}
+
+input,
+.button {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  width: 100%;
+  margin: 5px 0;
+  border: 1px solid hsl(246, 25%, 77%);
+  padding: 25px ;
+  border-radius: 10px;
+  font-weight: 600;
+}
+.error-icon {
+  background-image: url(icon-error.svg);
+  background-repeat: no-repeat;
+  background-position: 97% 49%;
+  border: 2px solid hsl(0, 100%, 74%) !important;
+}
+
+.button {
+  background-color: hsl(154, 59%, 51%);
+  cursor: pointer;
+  color: white;
+  box-shadow: 0px 4px hsl(154, 57%, 47%);
+padding-right: 230px;
+}
+
 
 }
